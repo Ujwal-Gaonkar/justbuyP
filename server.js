@@ -9,7 +9,7 @@ const connectDatabase = require("./config/database");
 const errorMiddleware = require("./middleware/error");
 
 // Load environment variables
-dotenv.config({ path: "server/config/config.env" });
+dotenv.config({ path: "config/config.env" });
 
 // Handling uncaught Exception
 process.on("uncaughtException", (err) => {

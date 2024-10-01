@@ -5,7 +5,7 @@
     "node": "16.15.0"
   },
   "description": "",
-  "main": "Server/server.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node Server/server.js",
